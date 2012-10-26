@@ -29,6 +29,8 @@ class Vim < Formula
                           "--enable-pythoninterp",
                           "--enable-rubyinterp",
                           "--enable-cscope",
+                          "--enable-clipboard=yes",
+                          "--enable-xterm_clipboard=yes",
                           "--with-features=huge"
     system "make"
 
